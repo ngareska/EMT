@@ -1,0 +1,10 @@
+POST http://localhost:9091/books/add HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Consuelo",
+  "category": "FANTASY",
+  "author": 1,
+  "availableCopies": 997
+}
+
