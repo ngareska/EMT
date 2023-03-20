@@ -19,4 +19,13 @@ public class Country {
     private String name;
 
     private String continet;
+
+    public Country(String name, String continet) {
+        this.name = name;
+        this.continet = continet;
+    }
+
+    public Country() {
+
+    }
 }

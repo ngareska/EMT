@@ -22,4 +22,15 @@ public class Book {
     private Author author;
 
     private int availableCopies;
+
+    public Book(int availableCopies, Category category, String name, Author author) {
+        this.availableCopies = availableCopies;
+        this.category = category;
+        this.name = name;
+        this.author = author;
+    }
+
+    public Book() {
+
+    }
 }
